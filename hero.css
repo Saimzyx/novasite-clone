@@ -1,0 +1,42 @@
+.hero-images{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: slideshow 9s infinite;
+}
+
+.slide1{
+    animation-delay: 0s;
+}
+
+.slide2{
+    animation-delay: 3s;
+}
+
+.slide3{
+    animation-delay: 6s;
+}
+
+@keyframes slideshow {
+    0% {opacity:0;}
+    5% {opacity:1;}
+    30% {opacity:1;}
+    35% {opacity:0;}
+    100% {opacity:0;}
+}
+
+.hero{
+    height: 100vh;
+}
