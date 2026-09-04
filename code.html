@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="hero.css">
     <link rel="stylesheet" href="navbar.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <title>Novasite clone</title>
 </head>
@@ -15,13 +14,15 @@
             <a href="code.html" class="nav-logo">
                 <h1 class="logo">NOVASITE&trade;</h1>
             </a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-icon">☰</label>       
             <ul class="nav-links">
-                <li><a href="code.html">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Service</a></li>
-                <li><a href="">Project</a></li>
+                <li><a class="nav-home" href="code.html">Home</a></li>
+                <li><a class="nav-about" href="">About</a></li>
+                <li><a class="nav-service" href="">Service</a></li>
+                <li><a class="nav-project" href="">Project</a></li>
+                <li><button class="nav-button" role="button">Contact</button></li>
             </ul>
-            <button class="nav-button" role="button">Contact Us</button>
     </nav>
     <section class="hero">
         <div class="hero-images">
