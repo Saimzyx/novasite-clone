@@ -18,6 +18,8 @@ body{
 .nav-logo{
     font-family: 'ClashDisplay';
     margin-left: 70px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .nav-bar{
@@ -31,7 +33,7 @@ body{
     left: 0;
     width: 100%;
     z-index: 10;
-    padding: 10px 0px 10px 0px;
+    padding: 14px 0px 14px 0px;
     
 }
 
@@ -167,10 +169,12 @@ a{
   touch-action: manipulation;
   background: transparent;
   /* margin-right: 70px; */
+  box-shadow: rgba(255, 255, 255, 0.2) 0 -70px 18px -14px inset,rgba(255, 255, 255, 0.2) 0 1px 2px,rgba(255, 255, 255, 0.2) 0 8px 16px;
 }
 
 .nav-button:hover {
-  box-shadow: rgba(255, 255, 255, 0.2) 0 -70px 18px -14px inset,rgba(255, 255, 255, 0.2) 0 1px 2px,rgba(255, 255, 255, 0.2) 0 8px 16px;
+    color: black;
+    box-shadow: rgba(255, 255, 255, 0.9) 0 -70px 18px -14px inset,rgba(255, 255, 255, 0.9) 0 1px 2px,rgba(255, 255, 255, 0.9) 0 8px 16px;
     /* transform: scale(1.05) ; */
 }
 
@@ -190,7 +194,7 @@ a{
 }
 
 @media (max-width: 1470px) {
-    .nav-links{
+    .nav-links{ 
         position: absolute;
         top: 100%;
         left: 0;
