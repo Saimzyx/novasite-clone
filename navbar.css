@@ -12,7 +12,8 @@ body{
     font-family: 'InterTight';
     margin: 0;
     padding: 0;
-    background-color: black;
+    /* background-color: black; */
+    background-color: rgb(11, 11, 11);
 }
 
 .nav-logo{

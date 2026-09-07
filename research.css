@@ -1,0 +1,80 @@
+
+.research{
+    display: flex;
+    justify-content: center;
+    margin: 120px 57px 80px 57px;
+    /* gap: 10px; */
+}
+
+.box1{
+    color: white;
+    height: 220px;
+    width: 410px;
+    border: 0.5px solid #808080;
+    border-color: #7C7C7C;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 30px 30px 30px 30px;
+    animation: appear linear;
+    animation-timeline: scroll();
+}
+
+.box2{
+    color: white;
+    height: 220px;
+    width: 410px;
+    border: 0.5px solid #808080;
+    border-color: #7C7C7C;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 30px 30px 30px 30px;
+    animation: disappear linear;
+    animation-timeline: scroll();
+}
+
+.box3{
+    color: white;
+    height: 220px;
+    width: 410px;
+    border: 0.5px solid #808080;
+    border-color: #7C7C7C;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 30px 30px 30px 30px;
+    animation: appear linear;
+    animation-timeline: scroll();
+}
+
+.box-number{
+    font-family: 'ClashDisplay';
+    background-color: white;
+    color: black;
+    height: 54px;
+    width: 54px;
+    font-weight: 700;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-heading{
+    font-family: 'ClashDisplay';
+    font-weight: 650;
+    font-size: 28px;
+}
+
+.box-description{
+    font-family: 'InterTight';
+    font-size: 16px;
+}
+
+@keyframes appear {
+    from { transform: translateY(100px); opacity: 1; }
+    to { transform: translateY(-90px); opacity: 1; }
+}
+
+@keyframes disappear {
+    from { transform: translateY(-90px); opacity: 1; }
+    to { transform: translateY(100px); opacity: 1; }
+}

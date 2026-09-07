@@ -1,0 +1,21 @@
+.service-top{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    margin: 120px 57px 80px 57px;
+    color: white;
+}
+
+.service-top-text{
+    font-family: 'InterTight';
+    font-size: 22px;
+}
+
+.service-bottom-text{
+    font-family: 'ClashDisplay';
+    font-weight: 600;
+    font-size: 28px;
+    max-width: 600px;
+    text-align: center;
+}
