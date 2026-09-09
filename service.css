@@ -19,3 +19,71 @@
     max-width: 600px;
     text-align: center;
 }
+
+
+.hover{
+    margin: 0px 57px 0px 57px;
+    color: white;
+    border-top: 0.5px solid #5C5C5C;
+    /* border-bottom: 0.5px solid #5C5C5C; */
+    max-height: 180px;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.hover:hover{
+    max-height: 400px;
+}
+
+.hover-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plus-top{
+    font-size: 100px;
+    font-weight: 100;
+    line-height: 160px;
+    /* align-items: center; */
+    display: inline-block;
+    transform-origin: center ;
+}
+
+.hover .plus-top{
+    transition: transform 0.4s ease;
+}
+
+.hover:hover .plus-top {
+    transform: rotate(45deg);
+}
+
+.hover-heading{
+    font-family: 'ClashDisplay';
+    font-size: 78px;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-bottom: 26px ;
+}
+
+.hover-description{
+    font-family: 'InterTight';
+    width: 500px;
+    line-height: 22px;
+    /* margin-top: 0px; */
+}
+
+.description-list{
+    font-family: 'InterTight';
+    font-size: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.plus-bottom{
+    color: red;
+    font-size: 30px;
+    font-weight: 200;
+}

@@ -1,0 +1,88 @@
+.project-top{
+    /* color: white; */
+    /* font-family: 'ClashDisplay'; */
+    margin: 140px 57px 80px 57px;
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute; */
+    gap: 300px;
+}
+
+.project-top-left{
+    color: white;
+    font-family: 'ClashDisplay';
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+}
+
+.project-top-right{
+    color: #808080;
+    font-family: 'InterTight';
+    font-size: 20px;
+    font-weight: 550;
+    max-width: 30%;
+}
+
+.img-container{
+    margin: 0px 57px 0px 57px;
+    position: relative;
+    height: 800px;
+    animation: shrink linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 100%;
+}
+
+@keyframes shrink {
+    from
+    {transform: scale(1);}
+    to
+    {transform: scale(0.8);}
+}
+
+.img-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-top{
+    position: absolute;
+    padding: 40px 40px 40px 40px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box ;
+}
+
+.img-tag{
+    background-color: white;
+    color: black;
+    font-family: 'ClashDisplay';
+    padding: 10px 12px 10px 12px;
+    font-weight: 600;
+    border-radius: 1px;
+    font-size: 24px;
+}
+
+.img-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img-date{
+    /* background-color: white; */
+    color: white;
+    font-family: 'ClashDisplay';
+    /* padding: 10px 12px 10px 12px; */
+    font-weight: 600;
+    /* border-radius: 1px; */
+    font-size: 24px;
+}
