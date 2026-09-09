@@ -1,0 +1,106 @@
+.feedback-background{
+    animation: slide-up linear;
+    animation-timeline: view();
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'ClashDisplay';
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+
+@keyframes slide-up {
+    from{
+        transform: translateY(300px);
+        opacity: 0.8;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card{
+    display: flex;
+    flex-flow: column;
+    height: 370px;
+    width: 100%;
+    max-width: 360px;
+    padding: 36px;
+    border-radius: 1px;
+    /* background-color: white; */
+    background-color: #2626264d;
+    backdrop-filter: blur(8px);
+    position:relative;
+    z-index: 2;
+}
+
+.card-1{
+    top: 70%;
+    left: 34%; 
+} 
+
+.card-2{
+   left: 70%; 
+   top: 40%;
+}
+
+.card-3{
+    bottom: -100px;
+    left: 60px;
+}
+
+.card-4{
+    top: 100%;
+    left: 50%;
+}
+
+.user-description{
+    font-family: 'InterTight';
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.user-info{
+    font-family: 'InterTight';
+    column-rule: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-heading{
+    font-size: 20px;
+    color: white;
+}
+
+.card-description{
+    padding-bottom: 60px;
+    max-width: 500px;
+    font-size: 16px;
+    color: white;
+}
+
+.stars{
+    color: #E52E2D;
+    font-size: 24px;
+}
+
+.user-name{
+    font-size: 18px;
+    color: #E52E2D;
+}
+
+.user-profession{
+    font-size: 16px;
+    color: white;
+}
+
