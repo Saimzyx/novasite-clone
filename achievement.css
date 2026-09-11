@@ -1,0 +1,98 @@
+.achievement{
+    margin: 120px 57px 80px 57px;
+}
+
+.achievement-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 70px;
+}
+
+.achieve-top-left{
+    margin: 0;
+    color: white;
+    font-family: 'ClashDisplay';
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 1;
+}
+
+.achieve-top-right{
+    color: #808080;
+    font-family: 'InterTight';
+    font-size: 20px;
+    font-weight: 550;
+    width: 464px;
+}
+
+.achieve-box-left{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.achieve-heading-left{
+    font-family: 'ClashDisplay';
+    font-size: 30px;
+    font-weight: 600;
+    /* max-width: 30%; */
+    color: white;
+    transition: color 0.3s ease;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+.achievement-box:hover .achieve-heading-left {
+    transform: translateX(10px);
+}
+
+
+.achieve-description-left{
+    font-family: 'InterTight';
+    width: 500px;
+    line-height: 22px;
+    color: #808080;
+    transition: color 0.3s ease;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+.achievement-box:hover .achieve-description-left {
+    transform: translateX(10px);
+}
+
+.achieve-date-right{
+    font-family: 'ClashDisplay';
+    font-size: 30px;
+    font-weight: 600;
+    /* padding-left: 10px; */
+    color: white;
+    transition: color 0.3s ease;
+    transform: translateX(0);
+    transition: transform 0.3s ease;
+}
+
+.achievement-box:hover .achieve-date-right {
+    transform: translateX(-10px);
+}
+
+.achievement-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 30px 20px;
+    background-color: #0b0b0b;
+    transition: background-color 0.3s ease;
+    border-bottom: 0.5px solid #5C5C5C;
+}
+
+.achievement-box:hover {
+    background-color: white;
+}
+
+.achievement-box:hover .achieve-heading-left,
+.achievement-box:hover .achieve-description-left,
+.achievement-box:hover .achieve-date-right {
+    color: black;
+}
+

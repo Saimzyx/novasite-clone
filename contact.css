@@ -1,0 +1,124 @@
+.contact{
+    margin: 120px 57px 80px 57px;
+    align-items: flex-start;
+    column-gap: 20px;
+    display: grid;
+    grid-auto-columns: 1fr ;
+    grid-template-columns: 710px 710px;
+    grid-template-rows: 483.766px;
+    /* height: 483.766px; */
+    justify-content: space-between;
+    /* justify-items: center; */
+    line-height: 19.2px; 
+    row-gap: 20px; 
+    text-size-adjust: 100%; 
+    width: 1440px;
+    unicode-bidi: isolate;
+
+}
+
+.contact-box-left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.contact-heading-left{
+    /* margin: 0; */
+    color: white;
+    font-family: 'ClashDisplay';
+    font-weight: 700;
+    font-size: 90px;
+    /* line-height: 1; */
+}
+
+.contact-description-left{
+    width: 422px;
+    font-family: 'ClashDisplay';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31.68px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contact-user-name{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'ClashDisplay';
+}
+
+.contact-user-profession{
+    line-height: 25.6px;
+    font-family: 'InterTight';
+    font-size: 16px;
+    font-weight: 400;
+    height: 25.5938px;
+    gap: 0px;
+}
+
+.contact-user-card{
+    padding-top: 60px;
+}
+
+.contact-box-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-box-right input,
+.contact-box-right textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #5C5C5C;
+    color: white;
+    font-family: 'InterTight';
+    font-size: 18px;
+    padding-bottom: 16px;
+    outline: none;
+    resize: vertical;
+}
+
+.contact-box-right input::placeholder,
+.contact-box-right textarea::placeholder {
+    color: #808080;
+}
+
+.contact-box-right textarea {
+    min-height: 100px;
+}
+
+/* .contact-button{
+    align-self: flex-start;
+} */
+
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    align-self: flex-start;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 14px 28px;
+    font-family: 'InterTight';
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.contact-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000000;
+    display: inline-block;
+}
+
+.contact-button:hover {
+    transform: scale(1.03);
+}

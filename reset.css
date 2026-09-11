@@ -30,6 +30,10 @@ p{
     margin: 0;
 }
 
-h5 {
+h5, h4{
     margin: 0;
+}
+
+h2{
+    margin-block-start: 0;
 }
