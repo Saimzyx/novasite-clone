@@ -2,9 +2,42 @@
     color: white;
     font-family: 'ClashDisplay';
     font-weight: 700;
-    font-size: 90px;
+    font-size: 100px;
+    padding: 15px 10px 15px 10px;
 }
 
 .star{
-    font-size: 10px;
+    /* font-size: 1px; */
+    width: 100px;
+    height: 100px;
+    padding: 21px 0px 20px 0px ;
+}
+
+.img-section-container-right{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 22px;
+    padding-right: 6em;
+    animation: spin 25s infinite linear ;
+    flex-shrink: 0;
+}
+
+.outer-img-section-right{
+    display: flex;
+    overflow-x: hidden;
+}
+
+.img-section-container-left{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 22px;
+    padding-right: 6em;
+    animation: spin 25s infinite linear ;
+    flex-shrink: 0;
+    animation-direction: reverse;
+}
+
+.outer-img-section-left{
+    display: flex;
+    overflow-x: hidden;
 }
