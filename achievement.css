@@ -96,3 +96,50 @@
     color: black;
 }
 
+
+@media (max-width: 1370px){
+    .achievement{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1060px){
+    .achieve-top-left{
+        font-size: 70px;
+    }
+    .achievement-top{
+        align-items: flex-start;
+        flex-direction: column;
+        
+    }
+}
+
+@media (max-width: 820px){
+    .achievement-box{
+        flex-direction: column;
+    }
+    .achieve-date-right{
+        padding-top: 10px;
+    }
+    .achievement-box:hover .achieve-date-right {
+        transform: translateX(10px);
+    }
+}
+
+@media (max-width: 640px){
+    .achieve-heading-left{
+        font-size: 20px;
+    }
+    .achieve-description-left{
+        width: 340px;
+    }
+}
+
+@media (max-width: 600px){
+    .achieve-top-left{
+        font-size: 50px;
+    }
+    .achieve-top-right{
+        width: 400px;
+    }
+}
