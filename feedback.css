@@ -105,7 +105,7 @@
 }
 
 .img-container{
-    margin: 0px 0px 0px 0px;
+    margin: 0px 57px 0px 57px;
     position: relative;
     height: 800px;
     animation: shrink linear;
@@ -117,7 +117,7 @@
     from
     {transform: scale(1);}
     to
-    {transform: scale(0.9);}
+    {transform: scale(0.8);}
 }
 
 .img-background{
@@ -140,6 +140,7 @@
         position: static;
         height: auto;
         padding: 40px 0 20px 0;
+        align-self: center;
     }
 
     .feedback-cards-wrap {
@@ -148,12 +149,14 @@
         max-width: 360px;
         margin: 40px 40px 40px 30px;
         height: 450px;
+        align-self: center;
     }
 
     .card {
         position: absolute;
-        top: 0;
+        top: 50%;
         left: 0;
+        transform: translateY(-50%);
         width: 100%;
         opacity: 0;
         animation: review-cycle 16s infinite;
@@ -172,6 +175,33 @@
         100% { opacity: 0; }
     }
 }
+
+@media (max-width: 800px){
+    .solo-img{
+        display: none;
+    }
+}
+
+@media (max-width: 620px){
+    .card{
+        padding: 28px 28px 10px 28px;
+        height: 330px;
+        max-width: 310px ;
+    }
+    .stars{
+        font-size: 20px;
+    }
+    .card-heading{
+        padding: 5px 0px 15px 0px;
+        font-size: 18px;
+    }
+    .card-description{
+        font-size: 15px;
+        max-width: 300px;
+        padding-bottom: 30px;
+    }
+}
+
 
 @media (max-width: 530px){
     .feedback-background{

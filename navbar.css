@@ -212,7 +212,7 @@ a{
         
         margin: 0;
         flex-direction: column;
-        gap: 25px;
+        gap: 40px;
     }
     #menu-toggle:checked ~ .nav-links{
         max-height: 50vh;
@@ -221,11 +221,14 @@ a{
     }
     .hamburger-icon{
         display: block;
-        padding: 0 70px 0 0;
+        padding: 0 40px 0 0;
     }
     label{
         color: white;
         font-size: 25px;
+    }
+    .nav-logo{
+        align-self: flex-start;
     }
 }
 

@@ -126,6 +126,23 @@
     }
 }
 
+@media (max-width: 800px){
+    .achievement-top{
+        padding-top: 40px;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 700px){
+    .achieve-top-left{
+        font-size: 50px;
+    }
+    .break-at-700{
+        display: none;
+    }
+}
+
+
 @media (max-width: 640px){
     .achieve-heading-left{
         font-size: 20px;
@@ -133,13 +150,28 @@
     .achieve-description-left{
         width: 340px;
     }
+    .achieve-top-left{
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 600px){
     .achieve-top-left{
-        font-size: 50px;
+        font-size: 30px;
     }
     .achieve-top-right{
         width: 400px;
+    }
+}
+
+@media (max-width: 450px){
+    .achieve-top-right{
+        width: 300px;
+    }
+    .achieve-description-left{
+        width: 300px;
+    }
+    .achievement-box{
+        padding: 30px 10px 30px 10px;
     }
 }

@@ -102,9 +102,16 @@
     }
     .about-bottom{
         gap: 20px;
+        margin-top: 80px;
     }
     .about-bottom-right{
-        width: 400;
+        width: 300px;
+    }
+    .about-top{
+        gap: 40px;
+    }
+    .about-bottom-left{
+        font-size: 30px;
     }
 
 }

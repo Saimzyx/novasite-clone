@@ -148,25 +148,41 @@
     .research{
         /* justify-content: flex-start; */
         flex-direction: column;
+        align-items: center;
     }
-
 
 }
 
 @media (max-width: 540px ){
     .box1{
-        animation: none;
-        height: 140px;
-        width: 280px;
+        height: 180px;
+        width: 320px;
     }
     .box2{
-        animation: none;
-        height: 140px;
-        width: 280px;
+        height: 180px;
+        width: 320px;
     }
     .box3{
-        animation: none;
-        height: 140px;
-        width: 280px;
+        height: 180px;
+        width: 320px;
+    }
+}
+
+@media (max-width: 440px ){
+    .research{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .box1{
+        height: 180px;
+        width: 320px;
+    }
+    .box2{
+        height: 180px;
+        width: 320px;
+    }
+    .box3{
+        height: 180px;
+        width: 320px;
     }
 }

@@ -194,4 +194,47 @@
     background-color: red;
 }
 
+@media (max-width: 1000px ){
+    .email-link{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 800px ){
+    .footer-end{
+        display: grid;
+        align-items: start;
+        flex-direction: column;
+        justify-items: stretch;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media (max-width: 670px ) {
+    .footer{
+        margin-top:80px ;
+    }
+    .footer-top-text{
+        align-items: center;
+    }
+    .footer-end{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        column-gap: 6px;
+    }
+}
+
+@media (max-width: 500px ){
+    .email-link{
+        padding-top: 10px;
+        font-size: 30px;
+    }
+    .footer-end-crousal{
+        padding-top: 10px;
+    }
+}
+
 

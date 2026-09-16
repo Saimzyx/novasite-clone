@@ -93,6 +93,27 @@
     .hero-images{
         height: 80vh;
     }
+    .hero{
+        height: 700px;
+    }
+}
+
+@media (max-width: 600px){
+    .hero-top{
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .right-top-text{
+        align-self: flex-end;
+    }
+    .left-bottom-text{
+        height: 100px;
+        top: 70%;
+    }
+    .hero{
+        height: 750px;
+    }
+    
 }
 
 

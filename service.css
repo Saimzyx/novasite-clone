@@ -134,7 +134,7 @@
     }
 }
 
-@media (max-width: 682px ){
+@media (max-width: 720px ){
     .hover-heading{
         font-size: 52px ;
         padding-top: 30px;
@@ -154,7 +154,7 @@
     }
 }
 
-@media (max-width: 540px ){
+@media (max-width: 700px ){
     .service-bottom-text{
         font-size: 16px;
     }
@@ -175,5 +175,8 @@
         align-items: center;
         gap: 6px;
     }
+}
 
+@media (max-width: 440px ){
+    
 }
