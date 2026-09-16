@@ -42,3 +42,8 @@
     overflow-x: hidden;
 }
 
+@media (max-width:520px) {
+    .img-going-right{
+        margin: 30px 0px 0px 0px;
+    }
+}

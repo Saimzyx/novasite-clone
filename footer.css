@@ -200,7 +200,7 @@
     }
 }
 
-@media (max-width: 800px ){
+/* @media (max-width: 800px ){
     .footer-end{
         display: grid;
         align-items: start;
@@ -209,15 +209,70 @@
         grid-auto-columns: 1fr;
         grid-template-columns: 300px 300px;
     }
+} */
+@media (max-width: 800px) {
+    .footer-middle {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+
+    .footer-links-right {
+        order: -1;
+        width: 100%;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+    .newsletter-subscribe-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-links-left {
+        order: 1;
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .footer-links-middle {
+        order: 2;
+        width: 50%;
+        align-items: flex-end;
+        padding-top: 20px;
+    }
+    .footer-links-right-text{
+        padding-bottom: 30px;
+        max-width: 400px;
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 700px ){
+    .footer-end{
+        display: grid;
+        align-items: start;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        justify-items: center;
+    }
 }
 
 @media (max-width: 670px ) {
     .footer{
-        margin-top:80px ;
+        margin-top:50px ;
     }
-    .footer-top-text{
+    .footer-top{
+        display: block;
+    }
+    .footer-middle{
+        margin-bottom: 20px;
+    }
+    /* .footer-top-text{
         align-items: center;
-    }
+    } */
     .footer-end{
         display: flex;
         align-items: center;
@@ -225,6 +280,18 @@
         flex-wrap: nowrap;
         column-gap: 6px;
     }
+    .email-link{
+        font-size: 40px;
+        align-items: center;
+    }
+    .newsletter-subscribe-box input{
+        padding: 20px 20px 20px 10px;
+        align-self: flex-start;
+    }
+    .footer{
+        margin: 50px 16px 10px 16px;
+    }
+    
 }
 
 @media (max-width: 500px ){

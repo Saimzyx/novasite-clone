@@ -170,8 +170,7 @@
 
 @media (max-width: 440px ){
     .research{
-        margin-left: 16px;
-        margin-right: 16px;
+        margin: 50px 16px 20px 16px;
     }
     .box1{
         height: 180px;

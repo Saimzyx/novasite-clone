@@ -119,19 +119,23 @@
 @media (max-width: 699px ){
     .about-top-right{
         font-size: 20px;
+        max-width: 500px;
+        /* width: 100; */
     }
     .about-top-left{
         font-size: 16px;
     }
     .about-top{
         flex-direction: column;
-        margin-top: 4px;
+        margin: 4px 16px 30px 16px;
     }
     .about-bottom{
         flex-direction: column;
+        margin: 30px 16px 20px 16px;
     }
     .about-bottom-right{
-        max-width: 450px;
+        max-width: 700px;
+        width: 100%;
     }
 }
 
