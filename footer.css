@@ -192,6 +192,7 @@
 .footer-end-crousal{
     padding-top: 90px;
     background-color: red;
+    overflow-x: hidden;
 }
 
 @media (max-width: 1000px ){
@@ -291,7 +292,12 @@
     .footer{
         margin: 50px 16px 10px 16px;
     }
-    
+    .footer-img-text{
+        font-size: 100px;
+    }
+    .footer-end-crousal{
+        padding-top: 30px ;
+    }
 }
 
 @media (max-width: 500px ){
@@ -299,9 +305,21 @@
         padding-top: 10px;
         font-size: 30px;
     }
-    .footer-end-crousal{
-        padding-top: 10px;
+    .footer-img-text{
+        font-size: 70px;
     }
+    .footer-end-crousal{
+        padding-top: 20px ;
+    }
+    
 }
 
-
+@media (max-width: 370px ){
+    .footer-img-text{
+        font-size: 50px;
+    }
+    .footer-end-crousal{
+        padding-top: 10px ;
+    }
+    
+}

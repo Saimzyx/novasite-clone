@@ -232,12 +232,28 @@ a{
     }
 }
 
+@media (max-width: 540px){
+    .nav-links{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 450px){
+    .nav-links{
+        gap: 28px;
+    }
+}
+
 @media (max-width: 340px){
     .nav-logo{
         margin-left: 10px;
     }
     .hamburger-icon{
         padding-right: 10px;
+    }
+    .nav-links{
+        gap: 24px;
+        font-size: 16px;
     }
 }
 

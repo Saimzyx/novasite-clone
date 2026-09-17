@@ -113,7 +113,12 @@
     .about-bottom-left{
         font-size: 30px;
     }
+}
 
+@media (max-width: 600px) {
+    .about{
+        margin-top: -140px;
+    }
 }
 
 @media (max-width: 699px ){
@@ -138,6 +143,14 @@
         width: 100%;
     }
 }
+
+
+@media (max-width: 340px) {
+    .about{
+        margin-top: -140px;
+    }
+}
+
 
 
 
