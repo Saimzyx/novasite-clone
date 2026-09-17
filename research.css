@@ -185,3 +185,28 @@
         width: 320px;
     }
 }
+
+@media (max-width: 340px ){
+    .research{
+        margin: 50px 16px 20px 16px;
+    }
+    .box1{
+        height: 150px;
+        width: 240px;
+    }
+    .box2{
+        height: 150px;
+        width: 240px;
+    }
+    .box3{
+        height: 150px;
+        width: 240px;
+    }
+    .box-number{
+        height: 40px;
+        width: 40px;
+    }
+    .box-heading{
+        font-size: 23px;
+    }
+}

@@ -185,3 +185,15 @@
         margin: 0px 18px 0px 18px;
     }
 }
+
+@media (max-width: 340px ){
+    .service-top{
+        margin: 50px 16px 60px 16px;
+    }
+    .hover{
+        margin: 0px 18px 0px 18px;
+    }
+    .hover-heading{
+        font-size: 30px;
+    }
+}

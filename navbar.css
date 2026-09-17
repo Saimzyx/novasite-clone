@@ -232,6 +232,14 @@ a{
     }
 }
 
+@media (max-width: 340px){
+    .nav-logo{
+        margin-left: 10px;
+    }
+    .hamburger-icon{
+        padding-right: 10px;
+    }
+}
 
 
 
